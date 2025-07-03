@@ -6,7 +6,7 @@ This template is a tag that reads the standard event schema that’s sent from t
 
 # Installation
 
-Please follow the instructions [here](https://developers.facebook.com/docs/marketing-api/gateway-products/signals-gateway/pixel-setup-google-tag-managerg).
+Please follow the instructions [here](https://developers.facebook.com/docs/marketing-api/gateway-products/signals-gateway/pixel-setup-google-tag-manager).
 
 # Reporting Bugs/Feedback
 Please raise any issue on GitHub
