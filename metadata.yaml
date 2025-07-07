@@ -1,5 +1,5 @@
 homepage: "https://developers.facebook.com/docs/marketing-api/gateway-products/signals-gateway/signals-gateway-pixel-onboarding"
 documentation: "https://developers.facebook.com/docs/marketing-api/gateway-products/signals-gateway/signals-gateway-pixel-onboarding"
 versions:
-  - sha: d4f6c8a1def234567890abcdefabcdefabcdef12
+  - sha: 9852eedc4dea703d4658dd175b620a46ab6af8bc
     changeNotes: Initial release.
