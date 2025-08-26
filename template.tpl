@@ -549,7 +549,6 @@ if (data.enhancedEcommerce) {
 }
 
 // Build the cbq() command arguments
-const cidParams = data.advancedMatchingList && data.advancedMatchingList.length ? makeTableMap(data.advancedMatchingList, 'name', 'value') : {};
 const objectProps = data.objectPropertyList && data.objectPropertyList.length ? makeTableMap(data.objectPropertyList, 'name', 'value') : {};
 const objectPropsFromVar = getType(data.objectPropertiesFromVariable) === 'object' ? data.objectPropertiesFromVariable : {};
 const mergedObjectProps = mergeObj(objectPropsFromVar, objectProps);
@@ -611,7 +610,7 @@ pixelIds.split(',').forEach(pixelId => {
         }
 
         // Initialize pixel and store in global array
-        cbq('init', pixelId, cidParams);
+        cbq('init', pixelId);
         // Set integration method as GTM
         cbq('set', 'integrationMethod', 'gtm-sgw-pixel@1.0.0');
 
